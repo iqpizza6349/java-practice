@@ -1,11 +1,11 @@
 package log.iqpizza6349;
 
-import log.iqpizza6349.greedy.Treasure;
+import log.iqpizza6349.implementation.SimilarWord;
 
 public class Main {
 
     public static void main(String[] args) {
-        Solution<?> solution = new Treasure();
+        Solution<?> solution = new SimilarWord();
         System.out.println(solution.solution());
         Runtime.getRuntime().gc();
         long usedMemory = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
