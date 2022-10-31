@@ -12,7 +12,7 @@ import java.util.StringTokenizer;
 /**
  * <a href="https://www.acmicpc.net/problem/1026">백준 온라인 저지 1026번 보물</a>
  */
-public class Treasure implements Solution<Integer> {
+public class Treasure implements Solution<Integer, Void> {
 
     @Override
     public Integer solution() {

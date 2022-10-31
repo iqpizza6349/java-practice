@@ -1,7 +1,12 @@
 package log.iqpizza6349;
 
-public interface Solution<T> {
+public interface Solution<T, V> {
 
-    T solution();
+    default T solution() {
+        return null;
+    }
 
+    default T solution(V[] objects) {
+        return null;
+    }
 }

@@ -12,7 +12,7 @@ import java.util.StringTokenizer;
 /**
  * <a href="https://www.acmicpc.net/problem/11047">백준 온라인 저지 11047 번 동전 0</a>
  */
-public class Coin0 implements Solution<Integer> {
+public class Coin0 implements Solution<Integer, Void> {
 
     @Override
     public Integer solution() {

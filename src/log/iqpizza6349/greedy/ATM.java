@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
 /**
  * <a href="https://www.acmicpc.net/problem/11399">백준 온라인 저지 11399 번 ATM</a>
  */
-public class ATM implements Solution<Integer> {
+public class ATM implements Solution<Integer, Void> {
 
     @Override
     public Integer solution() {

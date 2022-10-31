@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * <a href="https://www.acmicpc.net/problem/2839">백준 온라인 저지 2839 번 설탕 배달</a>
  */
-public class SugarDelivery implements Solution<Integer> {
+public class SugarDelivery implements Solution<Integer, Void> {
 
     @Override
     public Integer solution() {

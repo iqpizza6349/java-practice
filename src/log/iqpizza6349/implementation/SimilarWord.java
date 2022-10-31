@@ -9,7 +9,7 @@ import java.io.InputStreamReader;
 /**
  * <a href="https://www.acmicpc.net/problem/2607">백준 온라인 저지 2607번 비슷한 단어</a>
  */
-public class SimilarWord implements Solution<Integer> {
+public class SimilarWord implements Solution<Integer, Void> {
 
     @Override
     public Integer solution() {

@@ -10,7 +10,7 @@ import java.util.*;
 /**
  * <a href="https://www.acmicpc.net/problem/1931">백준 온라인 저지 1931 번 회의실 배정</a>
  */
-public class MeetingRoom implements Solution<Integer> {
+public class MeetingRoom implements Solution<Integer, Void> {
 
     @Override
     public Integer solution() {
